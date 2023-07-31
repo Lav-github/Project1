@@ -1,0 +1,14 @@
+git clone: It will bring the files or source code from central repo to the local workspace for the first time
+     git clone <repo_path_url>
+	 
+git push: it moves all the changes from Local workspace to central repo
+    git push <repo-url>
+	
+git pull: Brings the changes from central repo and merge the changes automatically to the local workspace
+     git pull <repo-url>
+	 
+git fetch: It brings chnages from central repo and store it in a separate branch called FTECH_HEAD branch,
+We can review the changes and merge it to the local workspace if required.
+    git fetch <repo-url>
+	
+Pull=fetch+merge

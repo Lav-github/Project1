@@ -1,0 +1,9 @@
+Git Architecture
+
+WorkingArea:It is a place where we can edit a file and add the files in this workplace and are visible to all the branches unless added and commited
+
+Index/Staging area: On git add, files are moved from workplace to Staging area, here we can save the changes.
+
+Local repo: On git commit, files are moved from staging area to Local Repo.
+
+central repo: On git Push, Push all the files from Local to central Repo.
